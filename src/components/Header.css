@@ -1,0 +1,20 @@
+.outerNavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  background-color: beige;
+}
+.contentLinks {
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+  font-size: 22px;
+}
+.contentLinks > a {
+  text-decoration: none;
+}
+.navName {
+  font-size: 22px;
+  margin: 25px;
+}

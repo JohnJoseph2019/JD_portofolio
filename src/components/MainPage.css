@@ -1,0 +1,27 @@
+.outerAboutMe {
+  background-color: burlywood;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 600px;
+}
+.outInfo-section {
+  display: flex;
+  flex-direction: column;
+}
+/* .circular--portrait {
+  border-radius: 50%;
+} */
+
+.circular--portrait img {
+  width: 15em;
+  border-radius: 50%;
+  margin: 15px;
+}
+.titleAboutMe {
+  font-size: 30px;
+}
+.informationAboutMe {
+  margin: 10px;
+  text-align: left;
+}
