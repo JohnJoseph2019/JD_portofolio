@@ -1,10 +1,41 @@
+.outerProjectDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  padding: 0 10px 0 10px;
+}
+
+.titleProjects {
+  font-size: 30px;
+  margin: 10px 0 10px 0;
+}
+
 .projectsContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  border: 2px solid gray;
+  margin: 40px 0 0 0;
+  padding: 0 15px 0 15px;
 }
 
 .projectURLImage {
   width: 25em;
+  height: 15em;
+}
+.projectDescriptionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px;
+  align-self: center;
+  margin-left: 50px;
+  margin: 20px 0 20px 70px;
+}
+.project-Description {
+  text-align: left;
+  font-size: 14px;
 }
