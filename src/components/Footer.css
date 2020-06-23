@@ -1,10 +1,13 @@
 .outerFooterMain {
   display: flex;
-
   justify-content: center;
   align-items: center;
-  height: 120px;
-  background-color: beige;
+  background-color: #173f5f;
+  /* aaaaaa */
+  position: fixed;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
 }
 
 .gitHub > img {
@@ -47,13 +50,13 @@
   height: 60px;
 }
 .gitHub:hover {
-  box-shadow: 5px 10px 5px black;
+  box-shadow: inset 0 0 10px aquamarine;
 }
 
 .linkedIn:hover {
-  box-shadow: 5px 10px 5px black;
+  box-shadow: inset 0 0 10px aquamarine;
 }
 
 .resume_PDF:hover {
-  box-shadow: 5px 10px 5px black;
+  box-shadow: inset 0 0 10px aquamarine;
 }

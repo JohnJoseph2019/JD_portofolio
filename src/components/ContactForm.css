@@ -1,11 +1,14 @@
 .outerContactMeForm {
   display: flex;
   flex-direction: column;
-  height: 600px;
-  margin-top: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+  height: 300px;
 }
 .contactMetitle {
   font-size: 30px;
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 .contactDescription {
