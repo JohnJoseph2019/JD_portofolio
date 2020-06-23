@@ -1,0 +1,59 @@
+.outerFooterMain {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color: beige;
+}
+
+.gitHub > img {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  top: 10%;
+}
+.linkedIn > img {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  top: 10%;
+}
+.resume_PDF > img {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  top: 10%;
+}
+.gitHub {
+  margin: 0 15px;
+  width: 60px;
+  height: 60px;
+}
+.linkedIn {
+  margin: 0 15px;
+  width: 60px;
+  height: 60px;
+}
+.resume_PDF {
+  margin: 0 15px;
+  width: 60px;
+  height: 60px;
+}
+.gitHub:hover {
+  box-shadow: 5px 10px 5px black;
+}
+
+.linkedIn:hover {
+  box-shadow: 5px 10px 5px black;
+}
+
+.resume_PDF:hover {
+  box-shadow: 5px 10px 5px black;
+}

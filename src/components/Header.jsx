@@ -7,9 +7,9 @@ export default function Header() {
     <div className='outerNavBar'>
       <div className='navName'>Juan Delgado</div>
       <div className='contentLinks'>
-        <NavLink to='#'>About Me</NavLink>
-        <NavLink to='#'>Projects</NavLink>
-        <NavLink to='#'>Contact Me</NavLink>
+        <a href='#aboutMe'>About Me</a>
+        <a href='#projects'>Projects</a>
+        <a href='#contactMe'>Contact Me</a>
       </div>
     </div>
   );

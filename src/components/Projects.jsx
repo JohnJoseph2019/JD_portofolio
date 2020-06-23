@@ -4,7 +4,9 @@ import './Projects.css';
 export default function Projects() {
   return (
     <div className='outerProjectDiv'>
-      <div className='titleProjects'>Projects</div>
+      <div className='titleProjects' id='projects'>
+        Projects
+      </div>
       {/* First Project */}
       <div className='projectsContainer'>
         <img

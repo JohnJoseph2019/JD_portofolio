@@ -1,0 +1,19 @@
+.outerContactMeForm {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  margin-top: 20px;
+}
+.contactMetitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.contactDescription {
+  display: flex;
+  align-self: center;
+  font-size: 18px;
+  width: 300px;
+}
+.contactEmail {
+  font-size: 18px;
+}
