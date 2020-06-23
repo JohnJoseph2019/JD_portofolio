@@ -21,7 +21,18 @@ export default function Projects() {
             no way affiliated with Instacart or the product development teams of its partnered
             grocery stores.
           </div>
-          <div className='projectLinks'></div>
+          <div className='projectLinks'>
+            <span className='projectLinksInfo'>Github Repo:</span>
+            <a
+              href='https://github.com/JohnJoseph2019/JD-Instantcart-Costco'
+              className='gitHubReport'>
+              <img src={require('../images/GitHub-Mark-64px.png')} alt='github' />
+            </a>
+            <span className='projectLinksInfo'>Deploy Site:</span>
+            <a href='http://jd-instacart-costco.surge.sh/welcome' className='htmlLink'>
+              <img src={require('../images/pngwave.png')} alt='linkedIn' />
+            </a>
+          </div>
         </div>
       </div>
       {/* Second Project */}
@@ -38,7 +49,16 @@ export default function Projects() {
             Programmed using a RESTful CRUD with user authentication as well as user verification to
             let only users only see the site.
           </div>
-          <div className='projectLinks'></div>
+          <div className='projectLinks'>
+            <span className='projectLinksInfo'>Github Repo:</span>
+            <a href='https://github.com/JohnJoseph2019/Pet-Care' className='gitHubReport'>
+              <img src={require('../images/GitHub-Mark-64px.png')} alt='github' />
+            </a>
+            <span className='projectLinksInfo'>Deploy Site:</span>
+            <a href='http://petcareforall.surge.sh/' className='htmlLink'>
+              <img src={require('../images/pngwave.png')} alt='linkedIn' />
+            </a>
+          </div>
         </div>
       </div>
       {/* third Project */}
@@ -55,7 +75,16 @@ export default function Projects() {
             have to come up with with all the words within 30 seconds. An entire react for the front
             and using an thirdpart API for checking how many words are in each set.
           </div>
-          <div className='projectLinks'></div>
+          <div className='projectLinks'>
+            <span className='projectLinksInfo'>Github Repo:</span>
+            <a href='https://github.com/JohnJoseph2019/Eye4words' className='gitHubReport'>
+              <img src={require('../images/GitHub-Mark-64px.png')} alt='github' />
+            </a>
+            <span className='projectLinksInfo'>Deploy Site:</span>
+            <a href='https://eye4words.netlify.app/' className='htmlLink'>
+              <img src={require('../images/pngwave.png')} alt='linkedIn' />
+            </a>
+          </div>
         </div>
       </div>
     </div>
