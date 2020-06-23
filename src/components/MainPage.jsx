@@ -4,7 +4,7 @@ import './MainPage.css';
 export default function Main() {
   return (
     <div className='outerAboutMe' id='aboutMe'>
-      <div class='circular--portrait'>
+      <div class='circularPortrait'>
         <img className='aboutMephoto' src={require('../images/aboutME.jpeg')} alt='juan' />
       </div>
       <div className='outInfo-section'>
