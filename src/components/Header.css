@@ -50,4 +50,12 @@
   .contentLinks {
     display: none;
   }
+  .outerNavBar {
+    justify-content: center;
+    align-items: center;
+  }
+  .navName {
+    margin-right: 5%;
+    font-weight: bold;
+  }
 }
