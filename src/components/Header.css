@@ -11,8 +11,10 @@
 .contentLinks {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   width: 400px;
   font-size: 22px;
+  margin: 10%;
 }
 .contentLinks > a {
   text-decoration: none;
@@ -20,9 +22,32 @@
 }
 .navName {
   font-size: 22px;
-  margin: 25px;
+  margin: 10%;
   color: white;
 }
 .headerCSS:hover {
   box-shadow: inset 0 0 10px aquamarine;
+}
+@media screen and (max-width: 930px) {
+  .navName {
+    margin: 5%;
+  }
+  .contentLinks {
+    margin: 5%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navName {
+    margin: 0 15px 0 30px;
+  }
+  .contentLinks {
+    margin: 0 30px 0 15px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .contentLinks {
+    display: none;
+  }
 }
