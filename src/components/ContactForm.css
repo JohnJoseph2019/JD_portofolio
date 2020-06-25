@@ -1,22 +1,69 @@
+.contactMeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 20px;
+}
+.contactMeTitle {
+  font-size: 40px;
+  font-weight: bold;
+}
+
 .outerContactMeForm {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 50px;
-  height: 300px;
-}
-.contactMetitle {
-  font-size: 30px;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  height: 400px;
 }
 .contactDescription {
   display: flex;
   align-self: center;
-  font-size: 18px;
-  width: 300px;
+  font-size: 35px;
 }
 .contactEmail {
-  font-size: 18px;
+  font-size: 35px;
+}
+
+@media screen and (max-width: 980px) {
+  .contactDescription {
+    /* width: 700px; */
+    font-size: 30px;
+  }
+  .contactEmail {
+    /* width: 700px; */
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .outerContactMeForm {
+    width: 750px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .outerContactMeForm {
+    width: 550px;
+  }
+  .contactDescription {
+    font-size: 25px;
+  }
+  .contactEmail {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .outerContactMeForm {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .outerContactMeForm {
+    width: 300px;
+  }
 }
