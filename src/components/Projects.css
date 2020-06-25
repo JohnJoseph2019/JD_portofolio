@@ -193,3 +193,15 @@
     width: 375px;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .projectsContainer {
+    width: 375px;
+  }
+  .center-the-projects {
+    width: 350px;
+  }
+  .project-Description {
+    width: 300px;
+  }
+}
