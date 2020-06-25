@@ -49,13 +49,16 @@
   height: 60px;
 }
 .gitHub:hover {
-  box-shadow: inset 0 0 10px aquamarine;
+  border-radius: 5px;
+  box-shadow: 0 0 10px aquamarine;
 }
 
 .linkedIn:hover {
-  box-shadow: inset 0 0 10px aquamarine;
+  border-radius: 5px;
+  box-shadow: 0 0 10px aquamarine;
 }
 
 .resume_PDF:hover {
-  box-shadow: inset 0 0 10px aquamarine;
+  border-radius: 5px;
+  box-shadow: 0 0 10px aquamarine;
 }

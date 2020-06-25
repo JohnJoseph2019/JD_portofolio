@@ -2,60 +2,83 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 10px 0 10px;
-  margin-top: 30px;
+  padding: 40px 15px 0 15px;
 }
 .titleProjects {
   font-size: 30px;
+  font-weight: bold;
 }
 
 .projectsContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   border: 2px solid gray;
   border-radius: 4px;
   margin: 40px 0 0 0;
-  height: 500px;
+  height: 600px;
+  width: 90vmax;
   padding: 0 15px 0 15px;
   background-color: beige;
 }
-
+.center-the-projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 800px;
+}
 .projectURLImage {
-  width: 25em;
-  height: 15em;
+  width: 30em;
+  height: 20em;
 }
 .projectDescriptionContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 300px;
+  height: 400px;
   align-self: center;
-  margin-left: 50px;
-  margin: 20px 0 20px 70px;
+  margin: 0 0 0 50px;
+}
+.projectTitle {
+  font-size: 20px;
+  font-weight: bold;
 }
 .project-Description {
   text-align: left;
-  font-size: 14px;
+  font-size: 20px;
+  width: 400px;
 }
 .projectLinks {
   display: flex;
+  justify-content: space-evenly;
   align-self: center;
+  width: 300px;
+  font-weight: bold;
 }
 .gitHubReport > img {
-  width: 30px;
-  height: 30px;
-  margin: 0 10px 0 5px;
+  width: 35px;
+  height: 35px;
+  margin: 0 10px 0 0;
 }
 .htmlLink > img {
-  width: 30px;
-  height: 30px;
-  margin: 0 10px 0 5px;
+  width: 35px;
+  height: 35px;
+  margin: 0 10px 0 0;
 }
 .projectLinksInfo {
-  font-size: 12px;
+  font-size: 15px;
   display: flex;
   align-items: center;
+}
+.htmlLink > img:hover {
+  box-shadow: 0 0 20px #173f5f;
+  border-radius: 2px;
+}
+
+.gitHubReport > img:hover {
+  box-shadow: 0 0 20px #173f5f;
+  border-radius: 2px;
 }
