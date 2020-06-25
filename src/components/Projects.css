@@ -82,3 +82,23 @@
   box-shadow: 0 0 20px #173f5f;
   border-radius: 2px;
 }
+
+@media screen and (max-width: 1125px) {
+  .projectsContainer {
+    width: 900px;
+  }
+  .projectURLImage {
+    width: 28em;
+    height: 18em;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .projectsContainer {
+    width: 700px;
+  }
+  .projectURLImage {
+    width: 25em;
+    height: 15em;
+  }
+}
