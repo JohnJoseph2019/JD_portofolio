@@ -48,9 +48,10 @@ export default function Projects() {
           <div className='projectDescriptionContainer'>
             <div className='projectTitle'>Pet Care</div>
             <div className='project-Description'>
-              An app where pet owners can post small jobs for pet sitters that are seeking for jobs.
-              Programmed using a RESTful CRUD with user authentication as well as user verification
-              to let only users only see the site.
+              An app where pet owners can find a sitter for the pet when they needed. Now a pet
+              owner can post jobs and sitter can see the upcoming jobs and accept the job. This app
+              was programmed using a RESTful CRUD with user authentication as well as user
+              verification to let only users only see the site.
             </div>
             <div className='projectLinks'>
               <span className='projectLinksInfo'>Github Repo:</span>
@@ -76,9 +77,9 @@ export default function Projects() {
           <div className='projectDescriptionContainer'>
             <div className='projectTitle'>Eye4Words</div>
             <div className='project-Description'>
-              A game where the user are giving a randome of 7 letters from the alphabet and the user
-              have to come up with with all the words within 30 seconds. An entire react for the
-              front and using an thirdpart API for checking how many words are in each set.
+              A game where you are giving a random of 7 letters and the user has to come up with all
+              the words it can under 30 seconds. This app was programmed with react for the front
+              and using a third party API for checking how many words are in each set of 7 letters.
             </div>
             <div className='projectLinks'>
               <span className='projectLinksInfo'>Github Repo:</span>

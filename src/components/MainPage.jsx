@@ -11,9 +11,10 @@ export default function Main() {
         <div className='outInfo-section'>
           <div className='titleAboutMe'>About Me</div>
           <p className='informationAboutMe'>
-            I am software engineer that likes to create , break, and learn. Helping is what I like
-            to do and sharing is my legacy. This is how I found coding to very important to learn
-            for today's world. Without it you wouldn't be here.
+            I am a software engineer that likes to create, explore, and learn. Helping is what I
+            like to do and sharing is my legacy. This is how I found coding very important to learn
+            in today's world. I want to keep striving for this and helping the world with
+            technology.
           </p>
         </div>
       </div>
