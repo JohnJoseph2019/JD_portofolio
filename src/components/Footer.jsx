@@ -13,7 +13,7 @@ export default function Footer() {
       <a
         href='https://www.docdroid.net/fWOhikF/juan-delgado-resume-june-2020-pages'
         className='resume_PDF'>
-        <img src={require('../images/pdf_resume.png')} alt='resume_pdf' />
+        <img src={require('../images/resume_logo.png')} alt='resume_pdf' />
       </a>
     </div>
   );
