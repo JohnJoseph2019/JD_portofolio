@@ -42,7 +42,7 @@ export default function Projects() {
         <div className='center-the-projects'>
           <img
             className='projectURLImage'
-            src={require('../images/pet_care.png')}
+            src={require('../images/pet_care.gif')}
             alt='pet-care-website'
           />
           <div className='projectDescriptionContainer'>
