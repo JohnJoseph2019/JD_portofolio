@@ -9,6 +9,7 @@
 .contactMeTitle {
   font-size: 40px;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .outerContactMeForm {
