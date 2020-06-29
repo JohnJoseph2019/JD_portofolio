@@ -71,7 +71,7 @@ export default function Projects() {
         <div className='center-the-projects'>
           <img
             className='projectURLImage'
-            src={require('../images/eye4words.png')}
+            src={require('../images/eye4words.gif')}
             alt='wyw4words website'
           />
           <div className='projectDescriptionContainer'>
