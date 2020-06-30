@@ -5,6 +5,7 @@ import MainPage from './components/MainPage';
 import Projects from './components/Projects';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
+import ContactMe from './components/ContactMe';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Header />
       <MainPage />
       <Projects />
-      <ContactForm />
+      {/* <ContactForm /> */}
+      <ContactMe />
       <Footer />
     </div>
   );
