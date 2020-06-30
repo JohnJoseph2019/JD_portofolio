@@ -44,4 +44,22 @@
   align-self: center;
   font-weight: bold;
   font-size: 20px;
+  border-radius: 8px;
+  width: 100px;
+  text-align: center;
+  background-color: #173f5f;
+  color: white;
+  padding: 5px 0 5px 0;
+}
+.contactEmail {
+  font-size: 25px;
+}
+@media screen and (max-width: 450px) {
+  .contactMe-Container input {
+    width: 300px;
+  }
+  .contactMe-Container button {
+    width: 150px;
+    padding: 10px 0;
+  }
 }
