@@ -51,8 +51,15 @@ export default class ContactMe extends Component {
           <label classname='contactMe-label' htmlFor='message'>
             Message:
           </label>
-          <textarea type='text' rows='10' cols='33' name='message' />
-          {status === 'SUCCESS' ? <p className='response'>Thanks!</p> : <button>Submit</button>}
+          <textarea type='text' rows='5' cols='33' name='message' />
+          {status === 'SUCCESS' ? (
+            <p className='response'>
+              Thanks! Message Sent.
+              <br /> Will get back to you ASAP
+            </p>
+          ) : (
+            <button>Submit</button>
+          )}
           {status === 'ERROR' && <p className='response'>Ooops! There was an error.</p>}
         </form>
         {/* <div className='contactEmail'>
