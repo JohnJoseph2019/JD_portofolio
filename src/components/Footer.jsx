@@ -11,7 +11,7 @@ export default function Footer() {
         <img src={require('../images/linkedin.png')} alt='linkedIn' />
       </a>
       <a
-        href='https://www.docdroid.net/fWOhikF/juan-delgado-resume-june-2020-pages'
+        href='https://www.docdroid.net/7o2rTgq/juan-delgado-resume-june-2020-pdf'
         className='resume_PDF'>
         <img src={require('../images/resume_logo.png')} alt='resume_pdf' />
       </a>
