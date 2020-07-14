@@ -62,9 +62,10 @@ export default class ContactMe extends Component {
           )}
           {status === 'ERROR' && <p className='response'>Ooops! There was an error.</p>}
         </form>
-        {/* <div className='contactEmail'>
-          You can also reach me at my e-mail <a href='mailto:juan.del89@gmail.com'>Email</a>
-        </div> */}
+        <div className='contactEmail'>
+          You can also reach me at:
+          <a href='mailto:juan.del89@gmail.com'> E-mail</a>
+        </div>
       </div>
     );
   }

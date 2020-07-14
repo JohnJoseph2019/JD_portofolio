@@ -70,6 +70,14 @@ input[type='email'] {
   font-weight: bold;
   font-size: 16px;
 }
+.contactEmail {
+  padding-top: 20px;
+  font-size: 16px;
+}
+.contactEmail a {
+  width: max-content;
+  text-decoration: none;
+}
 @media screen and (max-width: 450px) {
   .contactMe-Container input {
     width: 300px;
