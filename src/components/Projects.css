@@ -228,10 +228,6 @@
   .outerProjectDiv {
     background-color: white;
   }
-  /* .projectsContainer {
-    border: 0;
-    width: max-content;
-  } */
   .projectsContainer {
     border-top: 2px solid grey;
     padding-top: 10px;
@@ -244,7 +240,7 @@
 
 @media screen and (max-width: 375px) {
   .outerProjectDiv {
-    background-color: beige;
+    background-color: white;
     height: 2100px;
   }
   .projectsContainer {
