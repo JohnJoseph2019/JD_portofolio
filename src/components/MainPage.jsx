@@ -6,7 +6,7 @@ export default function Main() {
     <div className='aboutMeContainer' id='aboutMe'>
       <div className='outerAboutMe'>
         <div class='circularPortrait'>
-          <img className='aboutMephoto' src={require('../images/aboutME.jpeg')} alt='juan' />
+          <img className='aboutMephoto' src={require('../images/Juandel2.jpg')} alt='juan' />
         </div>
         <div className='outInfo-section'>
           <div className='titleAboutMe'>About Me</div>
