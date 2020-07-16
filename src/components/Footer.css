@@ -50,15 +50,18 @@
 }
 .gitHub:hover {
   border-radius: 5px;
-  box-shadow: 0 0 10px aquamarine;
+  /* box-shadow: 0 0 10px aquamarine; */
+  box-shadow: 0 0 10px rgb(231, 96, 82);
 }
 
 .linkedIn:hover {
   border-radius: 5px;
-  box-shadow: 0 0 10px aquamarine;
+  /* box-shadow: 0 0 10px aquamarine; */
+  box-shadow: 0 0 10px rgb(231, 96, 82);
 }
 
 .resume_PDF:hover {
   border-radius: 5px;
-  box-shadow: 0 0 10px aquamarine;
+  /* box-shadow: 0 0 10px aquamarine; */
+  box-shadow: 0 0 10px rgb(231, 96, 82);
 }
