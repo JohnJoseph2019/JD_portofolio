@@ -61,4 +61,7 @@
     margin-right: 5%;
     font-weight: bold;
   }
+  .outerNavBar {
+    height: 65px;
+  }
 }
