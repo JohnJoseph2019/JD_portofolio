@@ -20,7 +20,8 @@
   flex-direction: column;
 }
 .circularPortrait img {
-  width: 15em;
+  width: 20em;
+  height: 20em;
   border-radius: 50%;
   margin: 15px;
 }
@@ -35,24 +36,34 @@
   text-align: left;
   padding: 0 15px 0 15px;
 }
+@media screen and (max-width: 700px) {
+  .circularPortrait img {
+    width: 18em;
+    height: 18em;
+  }
+}
 
 @media screen and (max-width: 615px) {
   .outerAboutMe {
     width: 100%;
     justify-content: center;
   }
+  .circularPortrait img {
+    width: 15em;
+    height: 15em;
+  }
 }
-
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 570px) {
   .outerAboutMe {
     flex-direction: column;
     justify-content: start;
   }
   .circularPortrait img {
-    width: 10em;
     border-radius: 50%;
     margin: 120px 10px 10px 10px;
   }
+}
+@media screen and (max-width: 520px) {
   .informationAboutMe {
     height: 100%;
     width: 300px;
