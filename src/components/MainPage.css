@@ -28,7 +28,6 @@
 .titleAboutMe {
   font-size: 40px;
   font-weight: bold;
-  /* text-decoration: underline; */
 }
 .informationAboutMe {
   font-size: 20px;
@@ -36,13 +35,26 @@
   text-align: left;
   padding: 0 15px 0 15px;
 }
+@media screen and (width: 1024px) {
+  .circularPortrait img {
+    width: 25em;
+    height: 25em;
+    border-radius: 50%;
+    margin: 15px;
+  }
+  .informationAboutMe {
+    font-size: 25px;
+    margin: 10px;
+    text-align: left;
+    padding: 0 15px 0 15px;
+    width: 350px;
+  }
+}
 @media screen and (max-width: 700px) {
   .circularPortrait img {
     width: 18em;
-    height: 18em;
   }
 }
-
 @media screen and (max-width: 615px) {
   .outerAboutMe {
     width: 100%;
@@ -50,7 +62,7 @@
   }
   .circularPortrait img {
     width: 15em;
-    height: 15em;
+    height: 18em;
   }
 }
 @media screen and (max-width: 570px) {
