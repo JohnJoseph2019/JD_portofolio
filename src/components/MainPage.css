@@ -1,9 +1,10 @@
 .aboutMeContainer {
-  background-color: burlywood;
+  background-color: rgb(185, 90, 56);
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  color: white;
 }
 
 .outerAboutMe {
