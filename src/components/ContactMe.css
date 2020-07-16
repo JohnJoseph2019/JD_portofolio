@@ -106,3 +106,16 @@ input[type='email'] {
     padding: 10px 0;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .contactMe-Container input {
+    width: 250px;
+  }
+  .contactMe-Container textarea {
+    width: 250px;
+  }
+  .contactMe-Container button {
+    width: 150px;
+    padding: 10px 0;
+  }
+}

@@ -28,7 +28,6 @@
 }
 .headerCSS:hover {
   border-radius: 2px;
-  /* box-shadow: 0 0 10px aquamarine; */
   box-shadow: 0 0 10px rgb(231, 96, 82);
 }
 @media screen and (max-width: 930px) {
@@ -64,4 +63,7 @@
   .outerNavBar {
     height: 65px;
   }
+}
+
+@media screen and (max-width: 450px) {
 }
