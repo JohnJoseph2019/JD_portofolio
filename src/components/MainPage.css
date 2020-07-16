@@ -25,7 +25,7 @@
 .titleAboutMe {
   font-size: 40px;
   font-weight: bold;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .informationAboutMe {
   font-size: 20px;

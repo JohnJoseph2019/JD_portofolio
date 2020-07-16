@@ -7,7 +7,7 @@
 .titleProjects {
   font-size: 40px;
   font-weight: bold;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .projectsContainer {
