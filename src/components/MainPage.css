@@ -21,8 +21,11 @@
 }
 .circularPortrait img {
   width: 22em;
+  height: 22em;
   border-radius: 50%;
   margin: 15px;
+  object-fit: cover;
+  object-position: 50% 85%;
 }
 .titleAboutMe {
   font-size: 40px;
