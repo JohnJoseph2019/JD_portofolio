@@ -16,7 +16,7 @@
   padding: 20px;
   background-color: rgb(231, 96, 82);
   border-radius: 8px;
-  border: 2px solid gray;
+  border: 2px solid rgb(231, 96, 82);
 }
 
 .contactMe-Container label {

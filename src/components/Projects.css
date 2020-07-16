@@ -15,7 +15,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border: 2px solid gray;
+  border: 2px solid rgb(231, 96, 82);
   border-radius: 4px;
   margin: 40px 0 0 0;
   height: 600px;
@@ -228,9 +228,17 @@
   .outerProjectDiv {
     background-color: white;
   }
-  .projectsContainer {
+  /* .projectsContainer {
     border: 0;
     width: max-content;
+  } */
+  .projectsContainer {
+    border-top: 2px solid grey;
+    padding-top: 10px;
+    width: 100%;
+    margin: 30px 0 0 0;
+    justify-content: flex-start;
+    height: 625px;
   }
 }
 
