@@ -226,7 +226,7 @@
 
 @media screen and (max-width: 420px) {
   .outerProjectDiv {
-    background-color: beige;
+    background-color: white;
   }
   .projectsContainer {
     border: 0;

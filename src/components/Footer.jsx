@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className='outerFooterMain'>
       <a href='https://github.com/JohnJoseph2019' className='gitHub'>
-        <img src={require('../images/GitHub-Mark-64px.png')} alt='github' />
+        <img src={require('../images/Octocat.png')} alt='github' />
       </a>
       <a href='https://www.linkedin.com/in/jj-delgado/' className='linkedIn'>
         <img src={require('../images/linkedin.png')} alt='linkedIn' />
