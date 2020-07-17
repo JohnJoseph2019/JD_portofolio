@@ -1,18 +1,18 @@
 .aboutMeContainer {
   background-color: rgb(231, 96, 82);
-  /* 231,96,82 */
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   color: white;
+  padding-top: 100px;
 }
 
 .outerAboutMe {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 100vh;
+  height: max-content;
   width: 700px;
 }
 .outInfo-section {
@@ -35,7 +35,7 @@
   font-size: 20px;
   margin: 10px;
   text-align: left;
-  padding: 0 15px 0 15px;
+  padding: 0 15px 20px 15px;
 }
 @media screen and (width: 1024px) {
   .circularPortrait img {
@@ -68,6 +68,9 @@
   }
 }
 @media screen and (max-width: 570px) {
+  .aboutMeContainer {
+    padding-top: 0;
+  }
   .outerAboutMe {
     flex-direction: column;
     justify-content: start;
