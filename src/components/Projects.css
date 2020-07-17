@@ -245,7 +245,6 @@
   }
   .projectsContainer {
     border-top: 2px solid grey;
-    padding-top: 10px;
     width: 100%;
     margin: 30px 0 0 0;
     justify-content: flex-start;

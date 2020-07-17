@@ -12,8 +12,8 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: max-content;
   width: 700px;
+  min-height: 100vh;
 }
 .outInfo-section {
   display: flex;
