@@ -1,6 +1,5 @@
 .outerNavBar {
   display: flex;
-
   justify-content: space-between;
   align-items: center;
   height: 80px;
@@ -66,5 +65,12 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media only screen and (orientation: landscape) and (max-width: 812px) {
+  .outerNavBar {
+    /* display: flexbox; */
+    position: static;
+    /* top: 0; */
+    /* width: 100%; */
+    /* font-weight: bold; */
+  }
 }
