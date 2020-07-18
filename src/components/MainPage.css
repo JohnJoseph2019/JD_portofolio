@@ -29,6 +29,7 @@
 }
 .titleAboutMe {
   font-size: 40px;
+  letter-spacing: -5px;
   font-weight: bold;
 }
 .informationAboutMe {
