@@ -77,9 +77,12 @@ export default function Projects() {
           <div className='projectDescriptionContainer'>
             <div className='projectTitle'>Eye4Words</div>
             <div className='project-Description'>
+              A game where you are provided with 7 random letters and the user has to come up with
+              as many words under 30 seconds. Programmed with React for the front and leveraging a
+              third-party API that will return a set solution of all possible words for the set of
+              letters provided.
+            </div>
 
-A game where you are provided with 7 random letters and the user has to come up with as many words under 30 seconds. Programmed with React for the front and leveraging a third-party API that will return a set solution of all possible words for the set of letters provided.
-              
             <div className='projectLinks'>
               <span className='projectLinksInfo'>Github Repo:</span>
               <a href='https://github.com/JohnJoseph2019/Eye4words' className='gitHubReport'>
