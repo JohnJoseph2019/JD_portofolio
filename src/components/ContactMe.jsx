@@ -64,7 +64,7 @@ export default class ContactMe extends Component {
         </form>
         <div className='contactEmail'>
           You can also reach me at:
-          <a href='mailto:juan.del89@gmail.com'> E-mail</a>
+          <a href='mailto:juan.del89@gmail.com'> Juan.Del89@gmail.com</a>
         </div>
       </div>
     );

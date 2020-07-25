@@ -14,7 +14,7 @@ export default function Projects() {
             alt='petcare website'
           />
           <div className='projectDescriptionContainer'>
-            <div className='projectTitle'>InstantCart</div>
+            <div className='projectTitle'>InstaCart</div>
             <div className='project-Description'>
               A team effort to recreate the Instacart desktop and mobile application. Instacart is a
               grocery delivery and pick-up service. The team consists of 5 software engineers and 3
