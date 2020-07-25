@@ -78,9 +78,9 @@ export default function Projects() {
             <div className='projectTitle'>Eye4Words</div>
             <div className='project-Description'>
               A game where you are giving a random of 7 letters and the user has to come up with all
-              the words it can under 30 seconds. This app was programmed with react for the front
-              and using a third party API that will return a set solution of all possible words for
-              the set of letters giving.
+              the words it can under 30 seconds. This app was programmed with React and using a
+              third party API that return a set solution of all possible words for the set of
+              letters giving.
             </div>
             <div className='projectLinks'>
               <span className='projectLinksInfo'>Github Repo:</span>
