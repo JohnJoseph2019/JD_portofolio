@@ -1,4 +1,4 @@
-import React from 'react';
+import {NavLink} from 'react-router-dom';
 import './Header.css';
 import DropDown from '../shared/DropDown';
 
@@ -9,15 +9,15 @@ export default function Header() {
                 <div className='navName'>Juan Delgado</div>
                 <DropDown />
                 <div className='contentLinks'>
-                    <a href='#aboutMe' className='headerCSS'>
+                    <NavLink to='/' className='headerCSS'>
                         About Me
-                    </a>
-                    <a href='#projects' className='headerCSS'>
+                    </NavLink>
+                    <NavLink to='/projects' className='headerCSS'>
                         Projects
-                    </a>
-                    <a href='#contactMe' className='headerCSS'>
+                    </NavLink>
+                    <NavLink to='/contact' className='headerCSS'>
                         Contact Me
-                    </a>
+                    </NavLink>
                 </div>
             </div>
         </div>
