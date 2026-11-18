@@ -10,13 +10,15 @@ import ContactMe from './components/ContactMe';
 
 function App() {
     return (
-        <div className='App'>
+        <div className='min-h-screen flex flex-col bg-slate-950 text-slate-100'>
             <Header />
-            <Switch>
-                <Route exact path='/' component={MainPage} />
-                <Route path='/projects' component={Projects} />
-                <Route path='/contact' component={ContactMe} />
-            </Switch>
+            <main className='flex-grow'>
+                <Switch>
+                    <Route exact path='/' component={MainPage} />
+                    <Route path='/projects' component={Projects} />
+                    <Route path='/contact' component={ContactMe} />
+                </Switch>
+            </main>
             <Footer />
             {/* <MainPage />
             <Projects />
