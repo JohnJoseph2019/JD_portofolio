@@ -1,5 +1,5 @@
 import React from 'react';
-import './mainPage.css';
+import './MainPage.css';
 import mainPhoto from '../images/Juandel2.jpg';
 
 export default function Main() {
