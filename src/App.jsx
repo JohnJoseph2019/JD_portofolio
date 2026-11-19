@@ -20,12 +20,6 @@ function App() {
             </Switch>
 
             <Footer />
-
-            {/* <MainPage />
-            <Projects />
-            <ContactForm />
-            <ContactMe />
-            <Footer /> */}
         </div>
     );
 }
