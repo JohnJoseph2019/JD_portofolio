@@ -16,13 +16,17 @@ export default class DropDown extends Component {
 
     showDropdownMenu(event) {
         event.preventDefault();
+
+        event.stopPropagation();
         this.setState({displayMenu: true}, () => {
+            console.log('callback', this.state.displayMenu);
             document.addEventListener('click', this.hideDropdownMenu);
         });
     }
 
     hideDropdownMenu() {
         this.setState({displayMenu: false}, () => {
+            console.log('callback', this.state.displayMenu);
             document.removeEventListener('click', this.hideDropdownMenu);
         });
     }
@@ -33,6 +37,7 @@ export default class DropDown extends Component {
                 <div className='button' onClick={this.showDropdownMenu}>
                     Menu
                 </div>
+
                 {this.state.displayMenu ? (
                     <ul>
                         <li>

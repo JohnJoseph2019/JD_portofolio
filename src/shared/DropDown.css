@@ -1,61 +1,70 @@
 .dropdown {
-  position: relative;
-  display: flex;
-  margin-left: 5%;
+    position: relative;
+    display: flex;
+    margin-left: 5%;
 }
+
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  top: 45px;
-  right: 0px;
-  width: max-content;
-  background-color: white;
-  font-weight: bold;
-  position: absolute;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 45px;
+    right: 0px;
+    width: max-content;
+    background-color: navy;
+    font-weight: bold;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
+
 li a {
-  color: #000;
-  text-decoration: none;
+    color: #000;
+    text-decoration: none;
 }
+
 li {
-  padding: 8px 10px;
-  border-bottom: 1px solid #e5e5e5;
+    padding: 8px 10px;
+    border-bottom: 1px solid #e5e5e5;
 }
+
 li:last-child {
-  border-bottom: none;
+    border-bottom: none;
 }
+
 li:hover {
-  background-color: #e5e5e5;
-  color: white;
+    background-color: #e5e5e5;
+    color: white;
 }
+
 .button {
-  width: 125px;
-  font-size: 22px;
-  background-color: rgb(51, 50, 53);
-  border-radius: 5px;
-  font-weight: bold;
-  color: white;
+    width: 125px;
+    font-size: 22px;
+    background-color: rgb(51, 50, 53);
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
 }
+
 .button:before {
-  content: '';
-  position: absolute;
-  width: 0px;
-  height: 0px;
-  border: 10px solid;
-  border-color: white transparent transparent transparent;
-  right: 10px;
-  top: 40%;
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border: 10px solid;
+    border-color: white transparent transparent transparent;
+    right: 10px;
+    top: 40%;
 }
+
 @media screen and (min-width: 630px) {
-  .dropdown {
-    display: none;
-  }
+    .dropdown {
+        display: none;
+    }
 }
+
 @media screen and (max-width: 450px) {
-  .dropdown {
-    margin-left: 0;
-  }
+    .dropdown {
+        margin-left: 0;
+    }
 }
