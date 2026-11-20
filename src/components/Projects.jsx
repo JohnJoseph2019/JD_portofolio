@@ -10,7 +10,7 @@ export default function Projects() {
         <div className='outerProjectDiv' id='projects'>
             <div className='titleProjects'>Projects</div>
             {/* First Project */}
-            <div className='projectsContainer'>
+            <div className='projectsContainer rounded-lg'>
                 <div className='center-the-projects'>
                     <img
                         className='projectURLImage'

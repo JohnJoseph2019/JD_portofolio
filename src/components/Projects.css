@@ -1,253 +1,265 @@
 .outerProjectDiv {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 80px 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 15px 0 15px;
 }
+
 .titleProjects {
-  font-size: 40px;
-  font-weight: bold;
-  /* text-decoration: underline; */
+    font-size: 40px;
+    font-weight: bold;
+    /* text-decoration: underline; */
 }
 
 .projectsContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid rgb(231, 96, 82);
-  border-radius: 4px;
-  margin: 40px 0 0 0;
-  height: 600px;
-  width: 90vmax;
-  padding: 0 25px;
-  background-color: rgb(231, 96, 82);
-  color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(189, 187, 193);
+    /* border-radius: 4px; */
+    margin: 40px 0 0 0;
+    height: 600px;
+    width: 90vmax;
+    padding: 0 25px;
+    background-color: rgb(51, 50, 53);
+    color: white;
 }
+
 .center-the-projects {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 800px;
 }
+
 .projectURLImage {
-  width: 30em;
-  height: 20em;
+    width: 30em;
+    height: 20em;
 }
+
 .projectDescriptionContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 400px;
-  align-self: center;
-  margin: 0 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    align-self: center;
+    margin: 0 0 0 50px;
 }
+
 .projectTitle {
-  font-size: 20px;
-  font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
 }
+
 .project-Description {
-  text-align: left;
-  font-size: 20px;
-  /* width: 400px; */
+    text-align: left;
+    font-size: 20px;
+    /* width: 400px; */
 }
+
 .projectLinks {
-  display: flex;
-  justify-content: space-evenly;
-  align-self: center;
-  width: 300px;
-  font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 300px;
+    font-weight: bold;
 }
+
 .gitHubReport > img {
-  width: 35px;
-  height: 35px;
-  margin: 0 10px 0 0;
+    width: 35px;
+    height: 35px;
+    margin: 0 10px 0 0;
 }
+
 .htmlLink > img {
-  width: 35px;
-  height: 35px;
-  margin: 0 10px 0 0;
+    width: 35px;
+    height: 35px;
+    margin: 0 10px 0 0;
 }
+
 .projectLinksInfo {
-  font-size: 15px;
-  display: flex;
-  align-items: center;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
 }
+
 .htmlLink > img:hover {
-  box-shadow: 0 0 20px #173f5f;
-  border-radius: 2px;
+    box-shadow: 0 0 20px #173f5f;
+    border-radius: 2px;
 }
 
 .gitHubReport > img:hover {
-  box-shadow: 0 0 20px #173f5f;
-  border-radius: 2px;
+    box-shadow: 0 0 20px #173f5f;
+    border-radius: 2px;
 }
 
 @media screen and (max-width: 1125px) {
-  .projectsContainer {
-    width: 900px;
-  }
-  .projectURLImage {
-    width: 28em;
-    height: 18em;
-  }
+    .projectsContainer {
+        width: 900px;
+    }
+    .projectURLImage {
+        width: 28em;
+        height: 18em;
+    }
 }
 
 @media screen and (max-width: 975px) {
-  .projectsContainer {
-    width: 800px;
-    height: 500px;
-  }
-  .projectURLImage {
-    width: 18em;
-    height: 10em;
-  }
-  .center-the-projects {
-    justify-content: center;
-  }
-  .project-Description {
-    font-size: 18px;
-    width: 350px;
-  }
-  .projectDescriptionContainer {
-    justify-content: space-evenly;
-    height: 300px;
-  }
+    .projectsContainer {
+        width: 800px;
+        height: 500px;
+    }
+    .projectURLImage {
+        width: 18em;
+        height: 10em;
+    }
+    .center-the-projects {
+        justify-content: center;
+    }
+    .project-Description {
+        font-size: 18px;
+        width: 350px;
+    }
+    .projectDescriptionContainer {
+        justify-content: space-evenly;
+        height: 300px;
+    }
 }
 
 @media screen and (max-width: 900px) {
-  .projectsContainer {
-    width: 700px;
-  }
-  .projectURLImage {
-    width: 18em;
-    height: 15em;
-  }
-  .projectDescriptionContainer {
-    justify-content: space-evenly;
-    height: 300px;
-  }
+    .projectsContainer {
+        width: 700px;
+    }
+    .projectURLImage {
+        width: 18em;
+        height: 15em;
+    }
+    .projectDescriptionContainer {
+        justify-content: space-evenly;
+        height: 300px;
+    }
 }
+
 @media screen and (max-width: 750px) {
-  .projectsContainer {
-    width: 600px;
-    padding: 0 30px;
-  }
-  .projectURLImage {
-    width: 15em;
-    height: 12em;
-  }
-  .projectDescriptionContainer {
-    justify-content: space-evenly;
-    height: 275px;
-    margin: 0 0 0 30px;
-  }
+    .projectsContainer {
+        width: 600px;
+        padding: 0 30px;
+    }
+    .projectURLImage {
+        width: 15em;
+        height: 12em;
+    }
+    .projectDescriptionContainer {
+        justify-content: space-evenly;
+        height: 275px;
+        margin: 0 0 0 30px;
+    }
 }
 
 @media screen and (max-width: 700px) {
-  .projectsContainer {
-    width: 500px;
-    padding: 0 30px;
-  }
-  .center-the-projects {
-    width: 475px;
-  }
-  .project-Description {
-    width: 275px;
-    font-size: 16px;
-  }
-  .projectDescriptionContainer {
-    margin: 0 0 0 20px;
-  }
-  .projectURLImage {
-    width: 13em;
-  }
+    .projectsContainer {
+        width: 500px;
+        padding: 0 30px;
+    }
+    .center-the-projects {
+        width: 475px;
+    }
+    .project-Description {
+        width: 275px;
+        font-size: 16px;
+    }
+    .projectDescriptionContainer {
+        margin: 0 0 0 20px;
+    }
+    .projectURLImage {
+        width: 13em;
+    }
 }
 
 @media screen and (max-width: 600px) {
-  .projectsContainer {
-    flex-direction: column;
-    height: 750px;
-    padding: 0;
-  }
-  .center-the-projects {
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    height: 600px;
-  }
-  .projectURLImage {
-    width: 18em;
-    height: 16em;
-    margin-bottom: 25px;
-  }
-  .projectDescriptionContainer {
-    margin: 0;
-    height: 300px;
-  }
-  .projectTitle {
-    margin-bottom: 15px;
-  }
-  .project-Description {
-    margin-bottom: 30px;
-    width: 375px;
-  }
+    .projectsContainer {
+        flex-direction: column;
+        height: 750px;
+        padding: 0;
+    }
+    .center-the-projects {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 600px;
+    }
+    .projectURLImage {
+        width: 18em;
+        height: 16em;
+        margin-bottom: 25px;
+    }
+    .projectDescriptionContainer {
+        margin: 0;
+        height: 300px;
+    }
+    .projectTitle {
+        margin-bottom: 15px;
+    }
+    .project-Description {
+        margin-bottom: 30px;
+        width: 375px;
+    }
 }
 
 @media screen and (max-width: 520px) {
-  .projectsContainer {
-    width: 450px;
-  }
-  .center-the-projects {
-    width: 300px;
-  }
-  .project-Description {
-    width: 300px;
-  }
+    .projectsContainer {
+        width: 450px;
+    }
+    .center-the-projects {
+        width: 300px;
+    }
+    .project-Description {
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 475px) {
-  .projectsContainer {
-    width: 400px;
-  }
-  .gitHubReport > img {
-    width: 50px;
-    height: 50px;
-    margin: 0 10px 0 0;
-  }
-  .htmlLink > img {
-    width: 50px;
-    height: 50px;
-    margin: 0 10px 0 0;
-  }
+    .projectsContainer {
+        width: 400px;
+    }
+    .gitHubReport > img {
+        width: 50px;
+        height: 50px;
+        margin: 0 10px 0 0;
+    }
+    .htmlLink > img {
+        width: 50px;
+        height: 50px;
+        margin: 0 10px 0 0;
+    }
 }
 
 @media screen and (max-width: 420px) {
-  .outerProjectDiv {
-    background-color: white;
-  }
-  .projectsContainer {
-    border-top: 2px solid grey;
-    padding-top: 25px;
-    width: 100%;
-    margin: 30px 0 0 0;
-    justify-content: flex-start;
-    height: 625px;
-  }
+    .outerProjectDiv {
+        background-color: white;
+    }
+    .projectsContainer {
+        border-top: 2px solid grey;
+        padding-top: 25px;
+        width: 100%;
+        margin: 30px 0 0 0;
+        justify-content: flex-start;
+        height: 625px;
+    }
 }
 
 @media screen and (max-width: 375px) {
-  .outerProjectDiv {
-    background-color: white;
-    height: 2100px;
-  }
-  .projectsContainer {
-    border-top: 2px solid grey;
-    width: 100%;
-    margin: 30px 0 0 0;
-    justify-content: flex-start;
-    height: 625px;
-  }
+    .outerProjectDiv {
+        background-color: white;
+        height: 2100px;
+    }
+    .projectsContainer {
+        border-top: 2px solid grey;
+        width: 100%;
+        margin: 30px 0 0 0;
+        justify-content: flex-start;
+        height: 625px;
+    }
 }
