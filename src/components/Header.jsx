@@ -5,7 +5,7 @@ import DropDown from '../shared/DropDown';
 
 export default function Header() {
     return (
-        <div className='aaaaaa'>
+        <div className='header'>
             <div className='outerNavBar'>
                 <div className='navName'>Juan Delgado</div>
                 <DropDown />

@@ -1,72 +1,77 @@
 .outerNavBar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 80px;
-  background-color: rgb(51, 50, 53);
-  position: fixed;
-  top: 0;
-  width: 100%;
-  font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(51, 50, 53);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-weight: bold;
 }
+
 .contentLinks {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 400px;
-  font-size: 22px;
-  margin: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+    font-size: 22px;
+    margin: 10%;
 }
+
 .contentLinks > a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
+
 .navName {
-  font-size: 22px;
-  margin: 10%;
-  color: white;
+    font-size: 22px;
+    margin: 10%;
+    color: white;
 }
+
 .headerCSS:hover {
-  border-radius: 2px;
-  box-shadow: 0 0 10px rgb(231, 96, 82);
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgb(231, 96, 82);
 }
+
 @media screen and (max-width: 930px) {
-  .navName {
-    margin: 5%;
-  }
-  .contentLinks {
-    margin: 5%;
-  }
+    .navName {
+        margin: 5%;
+    }
+    .contentLinks {
+        margin: 5%;
+    }
 }
 
 @media screen and (max-width: 700px) {
-  .navName {
-    margin: 0 15px 0 30px;
-  }
-  .contentLinks {
-    margin: 0 30px 0 15px;
-  }
+    .navName {
+        margin: 0 15px 0 30px;
+    }
+    .contentLinks {
+        margin: 0 30px 0 15px;
+    }
 }
 
-@media screen and (max-width: 630px) {
-  .contentLinks {
-    display: none;
-  }
-  .outerNavBar {
-    justify-content: center;
-    align-items: center;
-  }
-  .navName {
-    margin-right: 5%;
-    font-weight: bold;
-  }
-  .outerNavBar {
-    height: 65px;
-  }
+@media screen and (max-width: 629px) {
+    .contentLinks {
+        display: none;
+    }
+    .outerNavBar {
+        justify-content: center;
+        align-items: center;
+    }
+    .navName {
+        margin-right: 5%;
+        font-weight: bold;
+    }
+    .outerNavBar {
+        height: 65px;
+    }
 }
 
 @media only screen and (orientation: landscape) and (max-width: 900px) {
-  .outerNavBar {
-    position: static;
-  }
+    .outerNavBar {
+        position: static;
+    }
 }
