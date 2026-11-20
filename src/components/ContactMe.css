@@ -1,121 +1,131 @@
 .contactMe-Container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 0 auto;
-  padding-top: 40px;
-  height: 800px;
-  width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 40px;
+    height: 800px;
+    width: max-content;
 }
+
 .contactMe-Container form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  margin-top: 20px;
-  padding: 20px;
-  background-color: rgb(231, 96, 82);
-  border-radius: 8px;
-  border: 2px solid rgb(231, 96, 82);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding: 20px;
+    /* background-color: rgb(51, 50, 53);
+    border-radius: 8px;
+    border: 2px solid rgb(189, 187, 193); */
 }
 
 .contactMe-Container label {
-  text-align: left;
-  font-weight: bold;
-  font-size: 20px;
-  color: white;
-  margin-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
 }
 
 .contactMe-Title {
-  font-weight: bold;
-  font-size: 40px;
-  margin-top: 50px;
-  /* text-decoration: underline; */
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 50px;
+    /* text-decoration: underline; */
 }
 
 .contactMe-Container input {
-  height: 40px;
-  width: 350px;
-  margin-bottom: 5px;
+    height: 40px;
+    width: 350px;
+    margin-bottom: 5px;
 }
+
 .contactMe-Container input[type='text'],
 input[type='email'] {
-  font-size: 20px;
-  font-weight: bold;
-  color: rgb(22, 24, 29);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(22, 24, 29);
 }
+
 .contactMe-Container textarea[type='text'] {
-  font-size: 20px;
-  font-weight: bold;
-  color: rgb(22, 24, 29);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(22, 24, 29);
 }
+
 .contactMe-Container textarea {
-  margin-bottom: 20px;
-  width: 350px;
+    margin-bottom: 20px;
+    width: 350px;
 }
+
 .contactMe-Container button {
-  align-self: center;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 8px;
-  width: 100px;
-  text-align: center;
-  background-color: rgb(22, 24, 29);
-  color: white;
-  padding: 5px 0 5px 0;
+    align-self: center;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(22, 24, 29);
+    color: white;
+    padding: 5px 0 5px 0;
 }
+
 .contactEmail {
-  font-size: 25px;
+    font-size: 25px;
 }
+
 .response {
-  font-weight: bold;
-  font-size: 16px;
+    font-weight: bold;
+    font-size: 16px;
 }
+
 .contactEmail {
-  padding-top: 20px;
-  font-size: 16px;
-  font-weight: bold;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
 }
+
 .contactEmail a {
-  width: max-content;
-  text-decoration: none;
+    width: max-content;
+    text-decoration: none;
 }
+
 @media screen and (max-width: 450px) {
-  .contactMe-Container input {
-    width: 300px;
-  }
-  .contactMe-Container textarea {
-    width: 300px;
-  }
-  .contactMe-Container button {
-    width: 150px;
-    padding: 10px 0;
-  }
+    .contactMe-Container input {
+        width: 300px;
+    }
+    .contactMe-Container textarea {
+        width: 300px;
+    }
+    .contactMe-Container button {
+        width: 150px;
+        padding: 10px 0;
+    }
 }
 
 @media screen and (max-width: 380px) {
-  .contactMe-Container input {
-    width: 290px;
-  }
-  .contactMe-Container textarea {
-    width: 290px;
-  }
-  .contactMe-Container button {
-    width: 150px;
-    padding: 10px 0;
-  }
+    .contactMe-Container input {
+        width: 290px;
+    }
+    .contactMe-Container textarea {
+        width: 290px;
+    }
+    .contactMe-Container button {
+        width: 150px;
+        padding: 10px 0;
+    }
 }
 
 @media screen and (max-width: 350px) {
-  .contactMe-Container input {
-    width: 250px;
-  }
-  .contactMe-Container textarea {
-    width: 250px;
-  }
-  .contactMe-Container button {
-    width: 150px;
-    padding: 10px 0;
-  }
+    .contactMe-Container input {
+        width: 250px;
+    }
+    .contactMe-Container textarea {
+        width: 250px;
+    }
+    .contactMe-Container button {
+        width: 150px;
+        padding: 10px 0;
+    }
 }
